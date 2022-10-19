@@ -58,7 +58,7 @@ html {
 
     &_first {
       background-color: $audience-color;
-      color: $button-first-color;
+      color: $button-first-background;
       min-width: 290px;
       height: 48px;
       border-radius: 2px;
@@ -124,7 +124,7 @@ html {
   }
 
   &_background:hover > &_span {
-    color: $button-first-color;
+    color: $button-first-background;
   }
   &_background:hover {
     background-color: $audience-color;
