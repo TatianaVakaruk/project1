@@ -1,0 +1,150 @@
+html {
+  font-family: "Work Sans", sans-serif;
+}
+
+.page {
+  background: rgba(0, 161, 198, 0.07);
+  min-width: 320px;
+  height: 1808px;
+  margin: auto;
+}
+
+.header_first {
+  min-width: 290px;
+  height: 34px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 50px;
+  color: #2b292d;
+  font-weight: 700;
+  line-height: 34px;
+  font-size: 22px;
+  text-align: center;
+}
+.header_second {
+  min-width: 290px;
+  height: 80px;
+  margin-top: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-weight: 700;
+  color: #2b292d;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main-text {
+  margin-top: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 24px;
+  line-height: 34px;
+  min-width: 290px;
+  height: 136px;
+  text-align: center;
+  color: #2b292d;
+  margin-bottom: 30px;
+}
+.main_button {
+  display: flex;
+  flex-direction: column;
+}
+.main_button_first {
+  background-color: #3040c4;
+  color: #fff;
+  min-width: 290px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 48px;
+  cursor: pointer;
+}
+.main_button_second {
+  background-color: #fff;
+  color: #000;
+  min-width: 290px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.gallary {
+  display: flex;
+  flex-direction: column;
+}
+.gallary_background {
+  margin-top: 15px;
+  min-width: 290px;
+  height: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.gallary_background:first-child {
+  margin-top: 40px;
+}
+.gallary_span {
+  min-width: 250px;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 22px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 700;
+  color: #2b292d;
+  cursor: pointer;
+}
+.gallary_background:hover > .gallary_span {
+  color: #fff;
+}
+.gallary_background:hover {
+  background-color: #3141c5;
+}
+.gallary_first {
+  cursor: pointer;
+}
+.gallary_second {
+  cursor: pointer;
+}
+.gallary_third {
+  cursor: pointer;
+}
+.gallary__fourth {
+  cursor: pointer;
+}
+
+img {
+  min-width: 138px;
+  flex-grow: 1;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  z-index: 1;
+  margin-left: 76px;
+  margin-right: 76px;
+}
+
+/*# sourceMappingURL=style.css.map */
