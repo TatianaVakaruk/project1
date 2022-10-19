@@ -197,11 +197,13 @@ img {
     width: 160px;
     height: 48px;
     margin: auto;
+    font-size: 18px;
   }
   .main_button_second {
     width: 158px;
     height: 48px;
     margin: auto;
+    font-size: 18px;
     margin-left: 10px;
   }
   .card {
