@@ -1,10 +1,11 @@
 @import 'breakpoints.scss';
+@import 'variables.scss';
 html {
   font-family: 'Work Sans', sans-serif;
 }
 
 .audience {
-  background: rgba(#00a1c6, 0.07);
+  background: rgba($audience-color, 0.07);
   min-width: 320px;
   height: 1808px;
   margin: auto;
@@ -16,7 +17,7 @@ html {
     margin-left: 15px;
     margin-right: 15px;
     padding-top: 50px;
-    color: #2b292d;
+    color: $headline-color;
     font-weight: 700;
     line-height: 34px;
     font-size: 22px;
@@ -29,7 +30,7 @@ html {
     margin-left: 15px;
     margin-right: 15px;
     font-weight: 700;
-    color: #2b292d;
+    color: $headline-color;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
@@ -48,7 +49,7 @@ html {
     min-width: 290px;
     height: 136px;
     text-align: center;
-    color: #2b292d;
+    color: $headline-color;
     margin-bottom: 30px;
   }
   &_button {
@@ -56,8 +57,8 @@ html {
     flex-direction: column;
 
     &_first {
-      background-color: #3040c4;
-      color: #fff;
+      background-color: $audience-color;
+      color: $button-first-color;
       min-width: 290px;
       height: 48px;
       border-radius: 2px;
@@ -72,7 +73,7 @@ html {
     }
     &_second {
       background-color: #fff;
-      color: #000;
+      color: $button-second-color;
       min-width: 290px;
       height: 48px;
       border-radius: 2px;
@@ -123,10 +124,10 @@ html {
   }
 
   &_background:hover > &_span {
-    color: #fff;
+    color: $button-first-color;
   }
   &_background:hover {
-    background-color: #3141c5;
+    background-color: $audience-color;
   }
   &_first {
     cursor: pointer;
@@ -195,32 +196,44 @@ img {
       display: flex;
       flex-direction: row;
       margin: auto;
+      margin-top: 34px;
       &_first {
         width: 160px;
         height: 48px;
         margin: auto;
-        margin-top: 34px;
       }
       &_second {
         width: 158px;
         height: 48px;
         margin: auto;
-        margin-top: 34px;
+
         margin-left: 10px;
       }
     }
-    .card {
-      display: flex;
-      flex-direction: row;
-      &_background {
-        margin-top: 111px;
-        width: 262px;
-        height: 300px;
-        margin-right: 30px;
-      }
-      &_background:first-child {
-        margin-right: 130px;
-      }
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 111px;
+
+    &_background {
+      width: 262px;
+      height: 300px;
+      margin-left: 20px;
+    }
+    &_span {
+      width: 212px;
+      height: 28px;
+      line-height: 28px;
+      font-size: 22px;
+
+      margin-top: 22px;
+    }
+    &_background:first-child {
+      position: relative;
+      bottom: 25px;
+      margin-left: 130px;
     }
   }
 }
