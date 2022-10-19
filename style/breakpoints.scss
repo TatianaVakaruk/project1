@@ -1,0 +1,6 @@
+$mn: 1400px;
+@mixin for-extra-big {
+  @media screen and (min-width: $mn) {
+    @content;
+  }
+}
