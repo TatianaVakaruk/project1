@@ -57,8 +57,8 @@ html {
     flex-direction: column;
 
     &_first {
-      background-color: $audience-color;
-      color: $button-first-background;
+      background-color: $button-first-background;
+      color: $button-first-color;
       min-width: 290px;
       height: 48px;
       border-radius: 2px;
@@ -99,7 +99,7 @@ html {
     margin-left: 15px;
     margin-right: 15px;
 
-    background-color: #fff;
+    background-color: $button-second-background;
     border-radius: 8px;
     border: none;
     cursor: pointer;
@@ -119,15 +119,15 @@ html {
     font-size: 22px;
     text-align: center;
     font-weight: 700;
-    color: #2b292d;
+    color: $headline-color;
     cursor: pointer;
   }
 
   &_background:hover > &_span {
-    color: $button-first-background;
+    color: $button-first-color;
   }
   &_background:hover {
-    background-color: $audience-color;
+    background-color: $button-first-background;
   }
   &_first {
     cursor: pointer;

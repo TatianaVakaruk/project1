@@ -55,8 +55,8 @@ html {
   flex-direction: column;
 }
 .main_button_first {
-  background-color: #00a1c6;
-  color: #3040c4;
+  background-color: #3040c4;
+  color: #fff;
   min-width: 290px;
   height: 48px;
   border-radius: 2px;
@@ -117,10 +117,10 @@ html {
   cursor: pointer;
 }
 .card_background:hover > .card_span {
-  color: #3040c4;
+  color: #fff;
 }
 .card_background:hover {
-  background-color: #00a1c6;
+  background-color: #3040c4;
 }
 .card_first {
   cursor: pointer;
