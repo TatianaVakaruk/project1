@@ -9,7 +9,7 @@ html {
     height: 1808px;
     margin: auto;
   }
-  .headline_title {
+  .audience .headl_title {
     min-width: 290px;
     height: 34px;
     margin-left: 15px;
@@ -21,7 +21,7 @@ html {
     font-size: 22px;
     text-align: center;
   }
-  .headline_subtitle {
+  .audience .headl_subtitle {
     min-width: 290px;
     height: 80px;
     margin-top: 17px;
@@ -33,11 +33,11 @@ html {
     line-height: 40px;
     text-align: center;
   }
-  .main {
+  .audience .main {
     display: flex;
     flex-direction: column;
   }
-  .main-text {
+  .audience .main-text {
     margin-top: 18px;
     margin-left: 15px;
     margin-right: 15px;
@@ -49,11 +49,11 @@ html {
     color: #2b292d;
     margin-bottom: 30px;
   }
-  .main_button {
+  .audience .main_button {
     display: flex;
     flex-direction: column;
   }
-  .main_button_first {
+  .audience .main_button_first {
     background-color: #3040c4;
     color: #fff;
     min-width: 290px;
@@ -68,7 +68,7 @@ html {
     line-height: 48px;
     cursor: pointer;
   }
-  .main_button_second {
+  .audience .main_button_second {
     background-color: #fff;
     color: #000;
     min-width: 290px;
@@ -83,11 +83,11 @@ html {
     margin-top: 12px;
     cursor: pointer;
   }
-  .card {
+  .audience .card {
     display: flex;
     flex-direction: column;
   }
-  .card_background {
+  .audience .card_background {
     margin-top: 15px;
     min-width: 290px;
     height: 300px;
@@ -98,10 +98,10 @@ html {
     border: none;
     cursor: pointer;
   }
-  .card_background:first-child {
+  .audience .card_background:first-child {
     margin-top: 40px;
   }
-  .card_span {
+  .audience .card_span {
     min-width: 250px;
     height: 28px;
     line-height: 28px;
@@ -114,25 +114,25 @@ html {
     color: #2b292d;
     cursor: pointer;
   }
-  .card_background:hover > .card_span {
+  .audience .card_background:hover > .audience .card_span {
     color: #fff;
   }
-  .card_background:hover {
+  .audience .card_background:hover {
     background-color: #3040c4;
   }
-  .card_first {
+  .audience .card_first {
     cursor: pointer;
   }
-  .card_second {
+  .audience .card_second {
     cursor: pointer;
   }
-  .card_third {
+  .audience .card_third {
     cursor: pointer;
   }
-  .card__fourth {
+  .audience .card__fourth {
     cursor: pointer;
   }
-  img {
+  .audience img {
     width: 138px;
     flex-grow: 1;
     height: 195px;
@@ -150,7 +150,7 @@ html {
     height: 983px;
     margin: auto;
   }
-  .headline_title {
+  .audience .headl_title {
     min-width: 168px;
     height: 34px;
     margin-left: 616px;
@@ -162,7 +162,7 @@ html {
     font-size: 22px;
     text-align: center;
   }
-  .headline_subtitle {
+  .audience .headl_subtitle {
     min-width: 555px;
     height: 112px;
     margin-top: 24px;
@@ -174,12 +174,12 @@ html {
     line-height: 56px;
     text-align: center;
   }
-  .main {
+  .audience .main {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .main-text {
+  .audience .main-text {
     margin-top: 30px;
     margin-left: 422px;
     margin-right: 423px;
@@ -191,12 +191,12 @@ html {
     color: #2b292d;
     margin-bottom: 34px;
   }
-  .main_button {
+  .audience .main_button {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .main_button_first {
+  .audience .main_button_first {
     background-color: #3040c4;
     color: #fff;
     width: 160px;
@@ -209,7 +209,7 @@ html {
     line-height: 13px;
     cursor: pointer;
   }
-  .main_button_second {
+  .audience .main_button_second {
     background-color: #fff;
     color: #000;
     width: 158px;
@@ -224,11 +224,11 @@ html {
     margin-left: 10px;
     cursor: pointer;
   }
-  .card {
+  .audience .card {
     display: flex;
     flex-direction: row;
   }
-  .card_background {
+  .audience .card_background {
     margin-top: 111px;
     width: 262px;
     height: 300px;
@@ -238,13 +238,13 @@ html {
     border: none;
     cursor: pointer;
   }
-  .card_background:first-child {
+  .audience .card_background:first-child {
     margin-left: 130px;
   }
-  .card_background:last-child {
+  .audience .card_background:last-child {
     margin-right: 131px;
   }
-  .card_span {
+  .audience .card_span {
     width: 212px;
     height: 28px;
     line-height: 28px;
@@ -258,25 +258,25 @@ html {
     color: #2b292d;
     cursor: pointer;
   }
-  .card_background:hover > .card_span {
+  .audience .card_background:hover > .audience .card_span {
     color: #fff;
   }
-  .card_background:hover {
+  .audience .card_background:hover {
     background-color: #3040c4;
   }
-  .card_first {
+  .audience .card_first {
     cursor: pointer;
   }
-  .card_second {
+  .audience .card_second {
     cursor: pointer;
   }
-  .card_third {
+  .audience .card_third {
     cursor: pointer;
   }
-  .card__fourth {
+  .audience .card__fourth {
     cursor: pointer;
   }
-  img {
+  .audience img {
     width: 138px;
     flex-grow: 1;
     height: 195px;
