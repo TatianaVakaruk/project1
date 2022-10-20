@@ -3,6 +3,9 @@
 html {
   font-family: 'Work Sans', sans-serif;
 }
+* {
+  box-sizing: bordr-box;
+}
 @include for-extra-small {
   .audience {
     background: rgba($audience-color, 0.07);
