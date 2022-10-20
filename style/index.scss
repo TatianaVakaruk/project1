@@ -156,7 +156,7 @@ html {
 @include for-extra-big {
   .audience {
     background: rgba($audience-color, 0.07);
-    min-width: 1400px;
+    width: 1400px;
     height: 983px;
     margin: auto;
   }
@@ -189,14 +189,15 @@ html {
   .main {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
     &-text {
       margin-top: 30px;
+
       margin-left: 422px;
       margin-right: 423px;
       font-size: 24px;
       line-height: 34px;
-      min-width: 290px;
+      width: 555px;
       height: 72px;
       text-align: center;
       color: $headline-color;
