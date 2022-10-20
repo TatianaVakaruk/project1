@@ -1,9 +1,9 @@
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 * {
-  box-sizing: bordr-box;
+  box-sizing: border-box;
 }
 
 @media (min-width: 320px) and (max-width: 1399px) {
