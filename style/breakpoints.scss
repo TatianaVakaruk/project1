@@ -1,4 +1,11 @@
 $mn: 1400px;
+$mn1: 320px;
+$mx: 1399px;
+@mixin for-extra-small {
+  @media (min-width: $mn1) and (max-width: $mx) {
+    @content;
+  }
+}
 @mixin for-extra-big {
   @media screen and (min-width: $mn) {
     @content;
