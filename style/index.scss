@@ -3,9 +3,7 @@
 html {
   font-family: 'Work Sans', sans-serif;
 }
-* {
-  box-sizing: border-box;
-}
+
 @include for-extra-small {
   .audience {
     background: rgba($audience-color, 0.07);

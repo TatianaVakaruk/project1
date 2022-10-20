@@ -2,10 +2,6 @@ html {
   font-family: "Work Sans", sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 @media (min-width: 320px) and (max-width: 1399px) {
   .audience {
     background: rgba(0, 161, 198, 0.07);
