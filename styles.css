@@ -322,6 +322,9 @@ html {
     opacity: 15px;
     margin-left: 74px;
   }
+  .header__button_unvisible {
+    display: none;
+  }
   i {
     margin-left: 20px;
     margin-top: 25px;
@@ -389,6 +392,7 @@ html {
     background-color: #fff;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
   }
 }
 
