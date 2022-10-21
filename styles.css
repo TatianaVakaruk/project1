@@ -118,7 +118,7 @@ html {
     color: #fff;
   }
   .audience .card_background:hover {
-    background-color: #3040c4;
+    background-color: #3141c5;
   }
   .audience .card_first {
     cursor: pointer;
@@ -211,7 +211,7 @@ html {
   }
   .audience .main_button_second {
     background-color: #fff;
-    color: #000;
+    color: #fff;
     width: 158px;
     height: 48px;
     border-radius: 2px;
@@ -262,7 +262,7 @@ html {
     color: #fff;
   }
   .audience .card_background:hover {
-    background-color: #3040c4;
+    background-color: #3141c5;
   }
   .audience .card_first {
     cursor: pointer;

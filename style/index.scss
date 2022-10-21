@@ -6,7 +6,7 @@ html {
 
 @include for-extra-small {
   .audience {
-    background: rgba($audience-color, 0.07);
+    background: rgba($blue, 0.07);
     width: 320px;
     height: 1808px;
     margin: auto;
@@ -18,7 +18,7 @@ html {
         margin-left: 15px;
         margin-right: 15px;
         padding-top: 50px;
-        color: $headline-color;
+        color: $black;
         font-weight: 700;
         line-height: 34px;
         font-size: 22px;
@@ -31,7 +31,7 @@ html {
         margin-left: 15px;
         margin-right: 15px;
         font-weight: 700;
-        color: $headline-color;
+        color: $black;
         font-size: 40px;
         line-height: 40px;
         text-align: center;
@@ -51,7 +51,7 @@ html {
         width: 290px;
         height: 136px;
         text-align: center;
-        color: $headline-color;
+        color: $black;
         margin-bottom: 30px;
       }
       &_button {
@@ -59,8 +59,8 @@ html {
         flex-direction: column;
 
         &_first {
-          background-color: $button-first-background;
-          color: $button-first-color;
+          background-color: $dark-blue;
+          color: $white;
           width: 290px;
           height: 48px;
           border-radius: 2px;
@@ -74,8 +74,8 @@ html {
           cursor: pointer;
         }
         &_second {
-          background-color: #fff;
-          color: $button-second-color;
+          background-color: $white;
+          color: $light-black;
           width: 290px;
           height: 48px;
           border-radius: 2px;
@@ -101,7 +101,7 @@ html {
         margin-left: 15px;
         margin-right: 15px;
 
-        background-color: $button-second-background;
+        background-color: $white;
         border-radius: 8px;
         border: none;
         cursor: pointer;
@@ -121,15 +121,15 @@ html {
         font-size: 22px;
         text-align: center;
         font-weight: 700;
-        color: $headline-color;
+        color: $black;
         cursor: pointer;
       }
 
       &_background:hover > &_span {
-        color: $button-first-color;
+        color: $white;
       }
       &_background:hover {
-        background-color: $button-first-background;
+        background-color: $super-blue;
       }
       &_first {
         cursor: pointer;
@@ -158,7 +158,7 @@ html {
 }
 @include for-extra-big {
   .audience {
-    background: rgba($audience-color, 0.07);
+    background: rgba($blue, 0.07);
     width: 1400px;
     height: 983px;
     margin: auto;
@@ -170,7 +170,7 @@ html {
         margin-left: 616px;
         margin-right: 616px;
         padding-top: 108px;
-        color: $headline-color;
+        color: $black;
         font-weight: 700;
         line-height: 34px;
         font-size: 22px;
@@ -183,7 +183,7 @@ html {
         margin-left: 422px;
         margin-right: 423px;
         font-weight: 700;
-        color: $headline-color;
+        color: $black;
         font-size: 56px;
         line-height: 56px;
         text-align: center;
@@ -203,7 +203,7 @@ html {
         width: 555px;
         height: 72px;
         text-align: center;
-        color: $headline-color;
+        color: $black;
         margin-bottom: 34px;
       }
       &_button {
@@ -212,8 +212,8 @@ html {
         justify-content: center;
 
         &_first {
-          background-color: $button-first-background;
-          color: $button-first-color;
+          background-color: $dark-blue;
+          color: $white;
           width: 160px;
           height: 48px;
           border-radius: 2px;
@@ -225,8 +225,8 @@ html {
           cursor: pointer;
         }
         &_second {
-          background-color: #fff;
-          color: $button-second-color;
+          background-color: $white;
+          color: $white;
           width: 158px;
           height: 48px;
           border-radius: 2px;
@@ -250,7 +250,7 @@ html {
         width: 262px;
         height: 300px;
         margin-left: 30px;
-        background-color: $button-second-background;
+        background-color: $white;
         border-radius: 8px;
         border: none;
         cursor: pointer;
@@ -273,15 +273,15 @@ html {
         line-height: 28px;
         text-align: center;
         font-weight: 700;
-        color: $headline-color;
+        color: $black;
         cursor: pointer;
       }
 
       &_background:hover > &_span {
-        color: $button-first-color;
+        color: $white;
       }
       &_background:hover {
-        background-color: $button-first-background;
+        background-color: $super-blue;
       }
       &_first {
         cursor: pointer;
@@ -339,7 +339,7 @@ html {
     &__navigation {
       width: 58px;
       height: 64px;
-      border-left: 1px solid #000;
+      border-left: 1px solid $light-black;
       opacity: 0.15;
       margin-left: 74px;
     }
@@ -358,7 +358,7 @@ html {
   .headline {
     width: 320px;
 
-    background-color: #f3c6bd;
+    background-color: $pink;
     margin: auto;
 
     &__title {
@@ -369,7 +369,7 @@ html {
       font-weight: 700;
       font-size: 50px;
       line-height: 50px;
-      color: #2b292d;
+      color: $black;
       letter-spacing: -0.31px;
     }
     &__subtitle {
@@ -380,7 +380,7 @@ html {
       line-height: 34px;
       margin-top: 18px;
       margin-right: 15px;
-      color: #2b292d;
+      color: $black;
     }
     &__img {
       width: 320px;
@@ -399,8 +399,8 @@ html {
       margin-right: 15px;
       margin-left: 15px;
       margin-top: 30px;
-      background-color: #3040c4;
-      color: #fff;
+      background-color: $dark-blue;
+      color: $white;
       text-align: center;
       border: none;
       border-radius: 2px;
@@ -417,7 +417,7 @@ html {
       margin-top: 15px;
       border: none;
       border-radius: 2px;
-      background-color: #fff;
+      background-color: $white;
       font-size: 18px;
       font-weight: 700;
       cursor: pointer;
