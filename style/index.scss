@@ -7,7 +7,7 @@ html {
 @include for-extra-small {
   .audience {
     background: rgba($audience-color, 0.07);
-    min-width: 320px;
+    width: 320px;
     height: 1808px;
     margin: auto;
 
@@ -25,7 +25,7 @@ html {
         text-align: center;
       }
       &_subtitle {
-        min-width: 290px;
+        width: 290px;
         height: 80px;
         margin-top: 17px;
         margin-left: 15px;
@@ -48,7 +48,7 @@ html {
         margin-right: 15px;
         font-size: 24px;
         line-height: 34px;
-        min-width: 290px;
+        width: 290px;
         height: 136px;
         text-align: center;
         color: $headline-color;
@@ -61,7 +61,7 @@ html {
         &_first {
           background-color: $button-first-background;
           color: $button-first-color;
-          min-width: 290px;
+          width: 290px;
           height: 48px;
           border-radius: 2px;
           border: none;
@@ -76,7 +76,7 @@ html {
         &_second {
           background-color: #fff;
           color: $button-second-color;
-          min-width: 290px;
+          width: 290px;
           height: 48px;
           border-radius: 2px;
           border: none;
@@ -305,6 +305,114 @@ html {
       margin: auto;
       margin-top: 22px;
       z-index: 1;
+    }
+  }
+}
+@include for-small {
+  .conteiner {
+    width: 320px;
+    height: 890px;
+    margin: auto;
+  }
+  .header {
+    width: 320px;
+    height: 64px;
+    display: flex;
+    margin: auto;
+
+    &__image {
+      width: 48px;
+      height: 48px;
+      margin: auto;
+      margin-top: 8px;
+      margin-left: 15px;
+      margin-right: 13px;
+    }
+    &__description {
+      width: 111px;
+      height: 25px;
+      margin-top: 20px;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    &__navigation {
+      width: 58px;
+      height: 64px;
+      border-left: 1px solid #000;
+      opacity: 15px;
+      margin-left: 74px;
+    }
+  }
+  i {
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .headline {
+    width: 320px;
+
+    background-color: #f3c6bd;
+    margin: auto;
+
+    &__title {
+      width: 290px;
+      height: 205px;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 50px;
+      color: #2b292d;
+      padding-top: 35px;
+    }
+    &__subtitle {
+      width: 290px;
+      height: 172px;
+      margin-left: 15px;
+      font-size: 24px;
+      line-height: 34px;
+      margin-top: 24px;
+      margin-right: 15px;
+      color: #2b292d;
+    }
+    &__img {
+      width: 320px;
+      height: 180px;
+      margin-top: 33px;
+      margin-bottom: 36px;
+    }
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+
+    &__blue {
+      width: 290px;
+      height: 48px;
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-top: 30px;
+      background-color: #3040c4;
+      color: #fff;
+      text-align: center;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 13px;
+      font-weight: 700;
+    }
+    &__white {
+      width: 290px;
+      height: 48px;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 2px;
+      background-color: #fff;
+      font-size: 18px;
+      font-weight: 700;
     }
   }
 }
