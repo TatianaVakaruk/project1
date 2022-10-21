@@ -319,7 +319,7 @@ html {
     width: 58px;
     height: 64px;
     border-left: 1px solid #000;
-    opacity: 15px;
+    opacity: 0.15;
     margin-left: 74px;
   }
   .header__button_unvisible {
