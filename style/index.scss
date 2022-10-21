@@ -343,9 +343,13 @@ html {
       opacity: 0.15;
       margin-left: 74px;
     }
+
     &__button_unvisible {
       display: none;
     }
+  }
+  .nav {
+    display: none;
   }
   i {
     margin-left: 20px;

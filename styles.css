@@ -325,6 +325,9 @@ html {
   .header__button_unvisible {
     display: none;
   }
+  .nav {
+    display: none;
+  }
   i {
     margin-left: 20px;
     margin-top: 25px;
