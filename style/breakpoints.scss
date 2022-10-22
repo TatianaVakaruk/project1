@@ -16,3 +16,8 @@ $mx: 1399px;
     @content;
   }
 }
+@mixin for-big {
+  @media (min-width: $mn) {
+    @content;
+  }
+}

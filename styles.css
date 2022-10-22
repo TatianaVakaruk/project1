@@ -9,7 +9,7 @@ html {
     height: 1808px;
     margin: auto;
   }
-  .audience .headl_title {
+  .headl__title {
     min-width: 290px;
     height: 34px;
     margin-left: 15px;
@@ -21,7 +21,7 @@ html {
     font-size: 22px;
     text-align: center;
   }
-  .audience .headl_subtitle {
+  .headl__subtitle {
     width: 290px;
     height: 80px;
     margin-top: 17px;
@@ -33,11 +33,11 @@ html {
     line-height: 40px;
     text-align: center;
   }
-  .audience .main {
+  .main {
     display: flex;
     flex-direction: column;
   }
-  .audience .main-text {
+  .main__text {
     margin-top: 18px;
     margin-left: 15px;
     margin-right: 15px;
@@ -49,11 +49,11 @@ html {
     color: #2b292d;
     margin-bottom: 30px;
   }
-  .audience .main_button {
+  .main__button {
     display: flex;
     flex-direction: column;
   }
-  .audience .main_button_first {
+  .main__button-first {
     background-color: #3040c4;
     color: #fff;
     width: 290px;
@@ -67,8 +67,9 @@ html {
     text-align: center;
     line-height: 48px;
     cursor: pointer;
+    font-weight: 700;
   }
-  .audience .main_button_second {
+  .main__button-second {
     background-color: #fff;
     color: #000;
     width: 290px;
@@ -82,12 +83,13 @@ html {
     margin-right: 15px;
     margin-top: 12px;
     cursor: pointer;
+    font-weight: 700;
   }
-  .audience .card {
+  .card {
     display: flex;
     flex-direction: column;
   }
-  .audience .card_background {
+  .card__background {
     margin-top: 15px;
     min-width: 290px;
     height: 300px;
@@ -98,10 +100,10 @@ html {
     border: none;
     cursor: pointer;
   }
-  .audience .card_background:first-child {
+  .card__background:first-child {
     margin-top: 40px;
   }
-  .audience .card_span {
+  .card__span {
     min-width: 250px;
     height: 28px;
     line-height: 28px;
@@ -114,25 +116,25 @@ html {
     color: #2b292d;
     cursor: pointer;
   }
-  .audience .card_background:hover > .audience .card_span {
+  .card__background:hover > .card__span {
     color: #fff;
   }
-  .audience .card_background:hover {
+  .card__background:hover {
     background-color: #3141c5;
   }
-  .audience .card_first {
+  .card__first {
     cursor: pointer;
   }
-  .audience .card_second {
+  .card__second {
     cursor: pointer;
   }
-  .audience .card_third {
+  .card__third {
     cursor: pointer;
   }
-  .audience .card__fourth {
+  .card__fourth {
     cursor: pointer;
   }
-  .audience img {
+  img {
     width: 138px;
     flex-grow: 1;
     height: 195px;
@@ -150,7 +152,7 @@ html {
     height: 983px;
     margin: auto;
   }
-  .audience .headl_title {
+  .headl__title {
     min-width: 168px;
     height: 34px;
     margin-left: 616px;
@@ -162,7 +164,7 @@ html {
     font-size: 22px;
     text-align: center;
   }
-  .audience .headl_subtitle {
+  .headl__subtitle {
     min-width: 555px;
     height: 112px;
     margin-top: 24px;
@@ -174,12 +176,12 @@ html {
     line-height: 56px;
     text-align: center;
   }
-  .audience .main {
+  .main {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .audience .main-text {
+  .main__text {
     margin-top: 30px;
     margin-left: 422px;
     margin-right: 423px;
@@ -191,12 +193,12 @@ html {
     color: #2b292d;
     margin-bottom: 34px;
   }
-  .audience .main_button {
+  .main__button {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .audience .main_button_first {
+  .main__button-first {
     background-color: #3040c4;
     color: #fff;
     width: 160px;
@@ -208,10 +210,11 @@ html {
     margin-left: 536px;
     line-height: 13px;
     cursor: pointer;
+    font-weight: 700;
   }
-  .audience .main_button_second {
+  .main__button-second {
     background-color: #fff;
-    color: #fff;
+    color: #000;
     width: 158px;
     height: 48px;
     border-radius: 2px;
@@ -223,12 +226,13 @@ html {
     margin-right: 536px;
     margin-left: 10px;
     cursor: pointer;
+    font-weight: 700;
   }
-  .audience .card {
+  .card {
     display: flex;
     flex-direction: row;
   }
-  .audience .card_background {
+  .card__background {
     margin-top: 111px;
     width: 262px;
     height: 300px;
@@ -238,13 +242,13 @@ html {
     border: none;
     cursor: pointer;
   }
-  .audience .card_background:first-child {
+  .card__background:first-child {
     margin-left: 130px;
   }
-  .audience .card_background:last-child {
+  .card__background:last-child {
     margin-right: 131px;
   }
-  .audience .card_span {
+  .card__span {
     width: 212px;
     height: 28px;
     line-height: 28px;
@@ -258,25 +262,25 @@ html {
     color: #2b292d;
     cursor: pointer;
   }
-  .audience .card_background:hover > .audience .card_span {
+  .card__background:hover > .card__span {
     color: #fff;
   }
-  .audience .card_background:hover {
+  .card__background:hover {
     background-color: #3141c5;
   }
-  .audience .card_first {
+  .card__first {
     cursor: pointer;
   }
-  .audience .card_second {
+  .card__second {
     cursor: pointer;
   }
-  .audience .card_third {
+  .card__third {
     cursor: pointer;
   }
-  .audience .card__fourth {
+  .card__fourth {
     cursor: pointer;
   }
-  .audience img {
+  img {
     width: 138px;
     flex-grow: 1;
     height: 195px;
@@ -307,13 +311,16 @@ html {
     margin-left: 15px;
     margin-right: 13px;
   }
-  .header__description {
+  .header__description-logo {
     width: 111px;
     height: 25px;
     margin-top: 20px;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
+  }
+  .header__description-name {
+    display: none;
   }
   .header__navigation {
     width: 58px;
@@ -331,6 +338,7 @@ html {
   i {
     margin-left: 20px;
     margin-top: 25px;
+    cursor: pointer;
   }
   .headline {
     width: 320px;
