@@ -212,6 +212,7 @@ html {
       text-align: center;
       color: $black;
       margin-bottom: 34px;
+      margin: auto;
     }
     &__button {
       display: flex;
@@ -436,6 +437,24 @@ html {
       font-size: 18px;
       font-weight: 700;
       cursor: pointer;
+    }
+  }
+}
+
+@include for-big {
+  .conteiner {
+    width: 1400px;
+    height: 710px;
+    background-color: $pink;
+    margin: auto;
+  }
+  .header {
+    display: flex;
+    &__image {
+      width: 60px;
+      height: 60px;
+      padding-top: 41px;
+      margin-left: 130px;
     }
   }
 }

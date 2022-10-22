@@ -198,6 +198,7 @@ html {
     text-align: center;
     color: #2b292d;
     margin-bottom: 34px;
+    margin: auto;
   }
   .main__button {
     display: flex;
@@ -411,6 +412,23 @@ html {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+  }
+}
+@media (min-width: 1400px) {
+  .conteiner {
+    width: 1400px;
+    height: 710px;
+    background-color: #f3c6bd;
+    margin: auto;
+  }
+  .header {
+    display: flex;
+  }
+  .header__image {
+    width: 60px;
+    height: 60px;
+    padding-top: 41px;
+    margin-left: 130px;
   }
 }
 
