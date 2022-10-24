@@ -437,7 +437,7 @@ html {
     margin-right: 335px;
     min-width: 222px;
     max-height: 51px;
-    margin-top: 0;
+    align-self: center;
   }
   .header__description-logo {
     font-size: 20px;
@@ -465,6 +465,7 @@ html {
     background-color: #3040c4;
     margin-top: 6px;
     margin-right: 0;
+    align-self: center;
   }
   i {
     display: none;
