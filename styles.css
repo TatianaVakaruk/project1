@@ -507,9 +507,8 @@ html {
     width: 796px;
     height: 448px;
     position: relative;
-    bottom: 430px;
-    left: 280px;
-    margin-bottom: 57px;
+    bottom: 410px;
+    left: 275px;
   }
   .headline__title {
     width: 754px;
@@ -527,7 +526,7 @@ html {
     margin-top: 34px;
     z-index: 1;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 24px;
     color: #2b292d;
   }
   .button {
@@ -555,7 +554,6 @@ html {
     position: relative;
     margin-bottom: 77px;
     top: 77px;
-    margin-left: 10px;
   }
 }
 
