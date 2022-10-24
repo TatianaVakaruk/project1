@@ -429,12 +429,11 @@ html {
   .header__image {
     max-width: 60px;
     height: 60px;
-    margin-top: 41px;
+    margin-top: 0;
     margin-left: 130px;
     margin-right: 15px;
   }
   .header__description {
-    margin-top: 45px;
     margin-right: 335px;
     min-width: 222px;
     max-height: 51px;
@@ -460,7 +459,8 @@ html {
   .nav {
     width: 284px;
     height: 25px;
-    margin-top: 46px;
+    display: flex;
+    margin: auto;
   }
   .nav__list {
     color: #2b292d;
@@ -468,12 +468,11 @@ html {
     font-size: 18px;
     line-height: 25px;
   }
-  .nav__list_last {
-    margin-right: 11px;
-  }
   .nav__arrow {
-    width: 5px;
+    max-width: 5px;
     height: 8px;
+    margin-left: 11px;
+    margin-top: 12px;
   }
   .headline {
     display: flex;
