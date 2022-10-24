@@ -181,6 +181,7 @@ html {
     text-align: center;
     letter-spacing: -0.5px;
     color: #2b292d;
+    margin-bottom: 30px;
   }
   .main {
     display: flex;
@@ -188,7 +189,6 @@ html {
     align-items: center;
   }
   .main__text {
-    margin-top: 30px;
     margin-left: 422px;
     margin-right: 423px;
     font-size: 24px;
@@ -205,6 +205,7 @@ html {
     flex-direction: row;
     justify-content: center;
     margin-right: 34px;
+    margin-top: 51px;
   }
   .main__button-first {
     background-color: #3040c4;

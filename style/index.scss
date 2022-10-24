@@ -194,6 +194,7 @@ html {
       text-align: center;
       letter-spacing: -0.5px;
       color: $black;
+      margin-bottom: 30px;
     }
   }
   .main {
@@ -201,8 +202,6 @@ html {
     flex-direction: column;
     align-items: center;
     &__text {
-      margin-top: 30px;
-
       margin-left: 422px;
       margin-right: 423px;
       font-size: 24px;
@@ -219,6 +218,7 @@ html {
       flex-direction: row;
       justify-content: center;
       margin-right: 34px;
+      margin-top: 51px;
     }
     &__button-first {
       background-color: $dark-blue;
