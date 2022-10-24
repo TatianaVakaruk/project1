@@ -453,7 +453,7 @@ html {
     display: flex;
     width: 1140px;
     margin: auto;
-
+    margin-bottom: 81px;
     &__image {
       max-width: 60px;
       height: 60px;
@@ -530,8 +530,7 @@ html {
     flex-direction: column;
     width: 1210px;
     height: 710px;
-    padding-top: 81px;
-    padding-left: 125px;
+    margin: auto;
 
     &__img {
       width: 796px;

@@ -426,6 +426,7 @@ html {
     display: flex;
     width: 1140px;
     margin: auto;
+    margin-bottom: 81px;
   }
   .header__image {
     max-width: 60px;
@@ -500,8 +501,7 @@ html {
     flex-direction: column;
     width: 1210px;
     height: 710px;
-    padding-top: 81px;
-    padding-left: 125px;
+    margin: auto;
   }
   .headline__img {
     width: 796px;
