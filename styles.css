@@ -499,16 +499,18 @@ html {
   .headline {
     display: flex;
     flex-direction: column;
-    width: 1400px;
+    width: 1210px;
     height: 900px;
     margin: auto;
+    margin-left: 25px;
   }
   .headline__img {
     width: 796px;
     height: 448px;
     position: relative;
-    bottom: 354px;
-    left: 250px;
+    bottom: 430px;
+    left: 345px;
+    padding-bottom: 77px;
   }
   .headline__title {
     width: 754px;
@@ -519,11 +521,15 @@ html {
     letter-spacing: -0.5px;
     z-index: 2;
     color: #2b292d;
+    position: relative;
+    left: 100px;
   }
   .headline__subtitle {
     width: 456px;
     height: 376px;
     margin-top: 34px;
+    position: relative;
+    left: 100px;
     z-index: 1;
     font-size: 24px;
     line-height: 34px;
@@ -541,7 +547,9 @@ html {
     text-align: center;
     margin-right: 10px;
     position: relative;
-    top: 80px;
+    left: 100px;
+    margin-bottom: 77px;
+    top: 77px;
   }
   .button__white {
     width: 158px;
@@ -551,7 +559,9 @@ html {
     background-color: #fff;
     color: #3040c4;
     position: relative;
-    top: 80px;
+    margin-bottom: 77px;
+    top: 77px;
+    left: 100px;
   }
 }
 
