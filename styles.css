@@ -498,19 +498,20 @@ html {
   .headline {
     display: flex;
     flex-direction: column;
-    width: 1400px;
+    width: 1210px;
     height: 648px;
+    margin-top: 81px;
   }
   .headline__img {
-    margin-right: 25px;
     width: 796px;
     min-height: 448px;
     position: relative;
     bottom: 320px;
+    left: 370px;
   }
   .headline__title {
-    margin: auto;
-    width: 603px;
+    margin-left: 125px;
+    width: 754px;
     height: 174px;
     font-size: 80px;
     line-height: 78px;
