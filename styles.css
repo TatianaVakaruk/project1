@@ -510,7 +510,7 @@ html {
     position: relative;
     bottom: 430px;
     left: 345px;
-    padding-bottom: 77px;
+    margin-bottom: 77px;
   }
   .headline__title {
     width: 754px;
