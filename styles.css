@@ -501,8 +501,8 @@ html {
     flex-direction: column;
     width: 1245px;
     height: 571px;
+    margin: auto;
     margin-left: 130px;
-    margin-right: 25px;
   }
   .headline__img {
     width: 796px;
