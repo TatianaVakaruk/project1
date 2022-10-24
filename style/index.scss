@@ -451,7 +451,7 @@ html {
   .header {
     height: 62px;
     display: flex;
-    margin: auto;
+    align-items: center;
 
     &__image {
       max-width: 60px;
@@ -491,9 +491,7 @@ html {
       text-align: center;
       color: $white;
       background-color: $dark-blue;
-      margin-top: 6px;
-      margin-right: 0;
-      align-self: center;
+      margin: 0;
     }
   }
   i {
