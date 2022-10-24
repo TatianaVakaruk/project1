@@ -469,6 +469,7 @@ html {
     margin-right: 0;
     align-self: center;
     font-weight: 700;
+    cursor: pointer;
   }
   i {
     display: none;
@@ -546,6 +547,7 @@ html {
     font-weight: 700;
     margin-bottom: 77px;
     top: 47px;
+    cursor: pointer;
   }
   .button__white {
     width: 158px;
@@ -559,6 +561,7 @@ html {
     top: 47px;
     border: none;
     font-weight: 700;
+    cursor: pointer;
   }
 }
 
