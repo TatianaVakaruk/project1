@@ -424,7 +424,8 @@ html {
   .header {
     height: 62px;
     display: flex;
-    align-items: center;
+    width: 1140px;
+    margin: auto;
   }
   .header__image {
     max-width: 60px;
@@ -434,8 +435,7 @@ html {
     margin-right: 15px;
   }
   .header__description {
-    margin-right: 335px;
-    min-width: 222px;
+    width: 222px;
     max-height: 51px;
     align-self: center;
   }
@@ -464,6 +464,8 @@ html {
     color: #fff;
     background-color: #3040c4;
     margin: 0;
+    margin-right: 0;
+    align-self: center;
   }
   i {
     display: none;
@@ -473,7 +475,8 @@ html {
     height: 25px;
     align-self: center;
     display: flex;
-    margin: auto;
+    margin-left: 250px;
+    margin-right: auto;
   }
   .nav__list {
     color: #2b292d;
@@ -494,7 +497,59 @@ html {
   .headline {
     display: flex;
     flex-direction: column;
-    margin-top: 177px;
+  }
+  .headline__img {
+    margin-right: 25px;
+    width: 796px;
+    min-height: 448px;
+    position: relative;
+    bottom: 610px;
+  }
+  .headline__title {
+    margin-top: 115px;
+    margin-left: 125px;
+    width: 754px;
+    height: 174px;
+    font-size: 80px;
+    line-height: 78px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    z-index: 2;
+    color: #2b292d;
+  }
+  .headline__subtitle {
+    width: 456px;
+    height: 376px;
+    margin-left: 130px;
+    z-index: 1;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2b292d;
+  }
+  .button {
+    display: flex;
+  }
+  .button__blue {
+    margin-left: 130px;
+    width: 160px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #3040c4;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    bottom: 185px;
+  }
+  .button__white {
+    width: 158px;
+    height: 48px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #fff;
+    color: #3040c4;
+    position: relative;
+    bottom: 185px;
   }
 }
 
