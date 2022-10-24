@@ -551,14 +551,12 @@ html {
       z-index: 2;
       color: $black;
       position: relative;
-      left: 50px;
     }
     &__subtitle {
       width: 456px;
       height: 376px;
       margin-top: 34px;
       position: relative;
-      left: 50px;
 
       z-index: 1;
       font-size: 24px;
@@ -577,7 +575,7 @@ html {
       text-align: center;
       margin-right: 10px;
       position: relative;
-      left: 50px;
+
       margin-bottom: 77px;
       top: 77px;
     }
@@ -591,7 +589,6 @@ html {
       position: relative;
       margin-bottom: 77px;
       top: 77px;
-      left: 50px;
     }
   }
 }
