@@ -437,7 +437,7 @@ html {
     margin-right: 335px;
     min-width: 222px;
     max-height: 51px;
-    margin-top: 7px;
+    margin-top: 0;
   }
   .header__description-logo {
     font-size: 20px;

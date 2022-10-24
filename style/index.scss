@@ -464,7 +464,7 @@ html {
       margin-right: 335px;
       min-width: 222px;
       max-height: 51px;
-      margin-top: 7px;
+      margin-top: 0;
     }
     &__description-logo {
       font-size: 20px;
@@ -491,6 +491,7 @@ html {
       text-align: center;
       color: $white;
       background-color: $dark-blue;
+
       margin-right: 0;
     }
   }
