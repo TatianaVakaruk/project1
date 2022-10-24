@@ -502,14 +502,13 @@ html {
     width: 1210px;
     height: 900px;
     margin: auto;
-    margin-left: 25px;
   }
   .headline__img {
     width: 796px;
     height: 448px;
     position: relative;
     bottom: 430px;
-    left: 345px;
+    left: 295px;
     margin-bottom: 77px;
   }
   .headline__title {
@@ -522,14 +521,14 @@ html {
     z-index: 2;
     color: #2b292d;
     position: relative;
-    left: 100px;
+    left: 50px;
   }
   .headline__subtitle {
     width: 456px;
     height: 376px;
     margin-top: 34px;
     position: relative;
-    left: 100px;
+    left: 50px;
     z-index: 1;
     font-size: 24px;
     line-height: 34px;
@@ -547,7 +546,7 @@ html {
     text-align: center;
     margin-right: 10px;
     position: relative;
-    left: 100px;
+    left: 50px;
     margin-bottom: 77px;
     top: 77px;
   }
@@ -561,7 +560,7 @@ html {
     position: relative;
     margin-bottom: 77px;
     top: 77px;
-    left: 100px;
+    left: 50px;
   }
 }
 
