@@ -464,6 +464,7 @@ html {
       margin-right: 335px;
       min-width: 222px;
       max-height: 51px;
+      vertical-align: middle;
     }
     &__description-logo {
       font-size: 20px;
@@ -477,18 +478,20 @@ html {
       opacity: 0.6;
       line-height: 25px;
     }
+
     &__navigation {
       display: none;
     }
     &__button_unvisible {
       margin-right: 0;
-      width: 104px;
-      height: 13px;
+      min-width: 160px;
+      height: 48px;
       line-height: 13px;
       font-size: 18px;
       text-align: center;
       color: $white;
       background-color: $dark-blue;
+      margin: auto;
     }
   }
   i {

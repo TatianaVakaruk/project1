@@ -437,6 +437,8 @@ html {
     margin-right: 335px;
     min-width: 222px;
     max-height: 51px;
+    vertical-align: middle;
+    margin-top: 10px;
   }
   .header__description-logo {
     font-size: 20px;
@@ -455,15 +457,14 @@ html {
   }
   .header__button_unvisible {
     margin-right: 0;
-    width: 160px;
+    min-width: 160px;
     height: 48px;
     line-height: 13px;
     font-size: 18px;
     text-align: center;
     color: #fff;
     background-color: #3040c4;
-    border: none;
-    border-radius: 2px;
+    margin: auto;
   }
   i {
     display: none;
