@@ -501,16 +501,16 @@ html {
     width: 1210px;
     height: 648px;
     margin-top: 81px;
+    margin-left: 125px;
   }
   .headline__img {
     width: 796px;
     min-height: 448px;
     position: relative;
-    bottom: 320px;
-    left: 370px;
+    bottom: 354px;
+    left: 250px;
   }
   .headline__title {
-    margin-left: 125px;
     width: 754px;
     height: 174px;
     font-size: 80px;
@@ -523,7 +523,7 @@ html {
   .headline__subtitle {
     width: 456px;
     height: 376px;
-    margin-left: 130px;
+    margin-top: 34px;
     z-index: 1;
     font-size: 24px;
     line-height: 34px;
@@ -533,7 +533,6 @@ html {
     display: flex;
   }
   .button__blue {
-    margin-left: 130px;
     width: 160px;
     height: 48px;
     border-radius: 2px;
@@ -542,7 +541,7 @@ html {
     text-align: center;
     margin-right: 10px;
     position: relative;
-    top: 100px;
+    top: 80px;
   }
   .button__white {
     width: 158px;
@@ -552,7 +551,7 @@ html {
     background-color: #fff;
     color: #3040c4;
     position: relative;
-    top: 100px;
+    top: 80px;
   }
 }
 
