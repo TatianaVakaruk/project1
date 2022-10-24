@@ -430,6 +430,7 @@ html {
     max-width: 60px;
     height: 60px;
     margin-top: 0;
+    margin-left: 15px;
     margin-right: 15px;
   }
   .header__description {
