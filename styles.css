@@ -1,5 +1,5 @@
 html {
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 @media (min-width: 320px) and (max-width: 1399px) {
@@ -453,6 +453,18 @@ html {
   .header__navigation {
     display: none;
   }
+  .header__button_unvisible {
+    margin-right: 0;
+    width: 160px;
+    height: 48px;
+    line-height: 13px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #3040c4;
+    border: none;
+    border-radius: 2px;
+  }
   i {
     display: none;
   }
@@ -467,6 +479,10 @@ html {
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
+    margin-left: 50px;
+  }
+  .nav__list_bold {
+    font-weight: 700;
   }
   .nav__arrow {
     max-width: 5px;

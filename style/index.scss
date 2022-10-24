@@ -480,6 +480,16 @@ html {
     &__navigation {
       display: none;
     }
+    &__button_unvisible {
+      margin-right: 0;
+      width: 104px;
+      height: 13px;
+      line-height: 13px;
+      font-size: 18px;
+      text-align: center;
+      color: $white;
+      background-color: $dark-blue;
+    }
   }
   i {
     display: none;
@@ -495,6 +505,10 @@ html {
       text-decoration: none;
       font-size: 18px;
       line-height: 25px;
+      margin-left: 50px;
+      &_bold {
+        font-weight: 700;
+      }
     }
     &__arrow {
       max-width: 5px;
