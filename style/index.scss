@@ -537,8 +537,8 @@ html {
       width: 796px;
       height: 448px;
       position: relative;
-      bottom: 410px;
-      left: 275px;
+      bottom: 470px;
+      left: 277px;
     }
 
     &__title {
@@ -558,7 +558,7 @@ html {
 
       z-index: 1;
       font-size: 24px;
-      line-height: 24px;
+      line-height: 44px;
       color: $black;
     }
   }
@@ -573,9 +573,10 @@ html {
       text-align: center;
       margin-right: 10px;
       position: relative;
-
+      border: none;
+      font-weight: 700;
       margin-bottom: 77px;
-      top: 77px;
+      top: 67px;
     }
     &__white {
       width: 158px;
@@ -586,7 +587,9 @@ html {
       color: $dark-blue;
       position: relative;
       margin-bottom: 77px;
-      top: 77px;
+      top: 67px;
+      border: none;
+      font-weight: 700;
     }
   }
 }
