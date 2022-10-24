@@ -424,6 +424,7 @@ html {
   .header {
     height: 62px;
     display: flex;
+    margin: auto;
   }
   .header__image {
     max-width: 60px;
