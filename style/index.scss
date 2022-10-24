@@ -528,14 +528,15 @@ html {
   .headline {
     display: flex;
     flex-direction: column;
+    width: 1400px;
+    height: 648px;
 
     &__img {
       margin-right: 25px;
       width: 796px;
       min-height: 448px;
       position: relative;
-
-      bottom: 610px;
+      bottom: 320px;
     }
 
     &__title {
@@ -573,7 +574,7 @@ html {
       text-align: center;
       margin-right: 10px;
       position: relative;
-      bottom: 185px;
+      top: 100px;
     }
     &__white {
       width: 158px;
@@ -583,7 +584,7 @@ html {
       background-color: $white;
       color: $dark-blue;
       position: relative;
-      bottom: 185px;
+      top: 100px;
     }
   }
 }
