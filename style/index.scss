@@ -371,12 +371,16 @@ html {
     margin-top: 25px;
     cursor: pointer;
   }
+  .border {
+    width: 320px;
+    height: 35px;
+    background-color: $pink;
+  }
   .headline {
     width: 320px;
     height: 791px;
     background-color: $pink;
     margin: auto;
-    padding-top: 35px;
 
     &__title {
       width: 290px;
