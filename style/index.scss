@@ -597,11 +597,3 @@ html {
     }
   }
 }
-@include big {
-  .project-container {
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-}
