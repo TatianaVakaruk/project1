@@ -795,8 +795,10 @@ html {
       opacity: 0.6;
     }
     &__new {
+      margin: 0;
       margin-top: 26px;
       margin-left: 129px;
+      padding: 0;
       text-align: left;
       width: 360px;
       height: 85px;
@@ -811,7 +813,8 @@ html {
   }
   .downloads {
     display: flex;
-
+    margin: 0;
+    padding: 0;
     &__item-first {
       margin: 0;
       margin-top: 25px;
