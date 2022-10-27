@@ -508,11 +508,18 @@ html {
     margin-left: 11px;
     margin-top: 12px;
   }
+  .headline-container {
+    width: 1400px;
+    height: 571px;
+    background-color: #f3c6bd;
+  }
   .headline {
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
     width: 1140px;
-    height: 571px;
+    height: 494px;
+    background-color: #f3c6bd;
     margin-left: 130px;
   }
   .headline__img {

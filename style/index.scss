@@ -535,12 +535,18 @@ html {
       margin-top: 12px;
     }
   }
+  .headline-container {
+    width: 1400px;
+    height: 571px;
+    background-color: $pink;
+  }
   .headline {
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
     width: 1140px;
-    height: 571px;
-
+    height: 494px;
+    background-color: $pink;
     margin-left: 130px;
 
     &__img {
@@ -880,7 +886,5 @@ html {
 
     margin-left: auto;
     margin-right: 132px;
-    &__first {
-    }
   }
 }
