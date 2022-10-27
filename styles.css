@@ -353,13 +353,13 @@ html {
     cursor: pointer;
   }
   .headline-container {
+    padding-top: 35px;
     width: 320px;
     height: 826px;
     background-color: #f3c6bd;
     margin: auto;
   }
   .headline {
-    margin-top: 35px;
     width: 320px;
     height: 791px;
     background-color: #f3c6bd;
