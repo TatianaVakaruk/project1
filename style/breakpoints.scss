@@ -31,3 +31,13 @@ $mx: 1399px;
     @content;
   }
 }
+@mixin big-page {
+  @media (min-width: $mn) {
+    @content;
+  }
+}
+@mixin big {
+  @media screen and (min-width: $mn) {
+    @content;
+  }
+}
