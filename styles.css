@@ -354,13 +354,14 @@ html {
   }
   .headline-container {
     width: 320px;
-    height: 826px;
+    height: 827px;
     background-color: #f3c6bd;
+    margin: auto;
   }
   .headline {
     margin-top: 35px;
     width: 320px;
-    height: 791px;
+    height: 756px;
     background-color: #f3c6bd;
     margin: auto;
   }
@@ -799,14 +800,28 @@ html {
   }
   .nav-links-container {
     display: flex;
+    margin: 0;
     margin-left: auto;
     margin-right: 226px;
+    padding: 0;
     position: relative;
-    bottom: 250px;
+    bottom: 230px;
   }
   .nav-links {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 265px;
+    height: 185px;
+  }
+  .nav-links_first {
+    margin: 0;
+    margin-right: 29px;
+    margin-left: 126px;
+    padding: 0;
+    width: 265px;
+    height: 185px;
   }
   .nav-links__list-item {
     line-height: 30px;
@@ -817,7 +832,6 @@ html {
   .nav-links__title {
     margin: 0;
     margin-bottom: 18px;
-    margin-right: 82px;
     line-height: 28px;
     font-size: 22px;
     width: 212px;
@@ -832,15 +846,12 @@ html {
     width: 265px;
     height: 185px;
   }
-  .end-container {
-    display: flex;
+  .end-line {
     position: relative;
-    bottom: 235px;
-    flex-direction: row;
-    margin-bottom: 0;
-    width: 1400px;
-    height: 50px;
+    bottom: 130px;
+    opacity: 0.1;
     border-top: 0.5px solid #2b292d;
+    opacity: 0.1;
   }
   .terms {
     width: 180px;
@@ -848,6 +859,8 @@ html {
     margin-left: 130px;
     margin-top: 13px;
     margin-bottom: 15px;
+    position: relative;
+    bottom: 112px;
   }
   .sosial-links {
     display: flex;
