@@ -41,3 +41,8 @@ $mx: 1399px;
     @content;
   }
 }
+@mixin little {
+  @media (min-width: $mn1) and (max-width: $mx) {
+    @content;
+  }
+}
