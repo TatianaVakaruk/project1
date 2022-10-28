@@ -4,7 +4,7 @@ html {
 
 @media (min-width: 320px) and (max-width: 1399px) {
   .audience {
-    background: rgba(0, 161, 198, 0.07);
+    background: rgba(0, 255, 255, 0.07);
     width: 320px;
     height: 1808px;
     margin: auto;
@@ -150,7 +150,7 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .audience {
-    background-color: rgba(0, 161, 198, 0.07);
+    background-color: rgba(0, 255, 255, 0.07);
     width: 1400px;
     height: 983px;
     margin: auto;
