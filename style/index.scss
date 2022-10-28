@@ -666,11 +666,13 @@ html {
       max-width: 135px;
       height: 40px;
       margin-right: 10px;
+      cursor: pointer;
     }
     &__item-second {
       margin-top: 31px;
       max-width: 116px;
       height: 40px;
+      cursor: pointer;
     }
     &__line {
       display: none;
@@ -823,12 +825,14 @@ html {
       margin-right: 10px;
       max-width: 135px;
       height: 40px;
+      cursor: pointer;
     }
     &__item-second {
       margin: 0;
       margin-top: 25px;
       max-width: 116px;
       height: 40px;
+      cursor: pointer;
     }
   }
   .line-first {
@@ -864,10 +868,12 @@ html {
       list-style-type: none;
       text-align: left;
       font-size: 18px;
+      color: rgba(43, 41, 45, 0.6);
     }
     &__title {
       margin: 0;
       margin-bottom: 18px;
+      color: rgba(43, 41, 45, 1);
 
       line-height: 28px;
       font-size: 22px;
@@ -887,23 +893,57 @@ html {
   .end-line {
     position: relative;
     bottom: 130px;
-    opacity: 0.1;
-    border-top: 0.5px solid $black;
-    opacity: 0.1;
+    display: flex;
+    border-top: 0.5px solid rgba(43, 41, 45, 0.1);
   }
   .terms {
     width: 180px;
     height: 22px;
     margin-left: 130px;
-    margin-top: 13px;
-    margin-bottom: 15px;
+
     position: relative;
-    bottom: 112px;
+    top: 13px;
+
+    &__items {
+      line-height: 22px;
+      text-align: left;
+      text-decoration: none;
+      color: $black;
+      opacity: 0.6;
+      margin-right: 10px;
+      font-size: 14px;
+      &_last {
+        margin-right: 0;
+      }
+    }
   }
   .sosial-links {
     display: flex;
+    position: relative;
+    left: 320px;
+    bottom: 28px;
 
-    margin-left: auto;
-    margin-right: 132px;
+    &__first {
+      margin-right: 15px;
+      margin-left: 861px;
+      width: 21px;
+      height: 16px;
+
+      color: $black;
+    }
+    &__secont {
+      width: 18px;
+      height: 17px;
+
+      color: $black;
+      margin-right: 15px;
+    }
+    &__third {
+      width: 16px;
+      height: 16px;
+
+      color: $black;
+      margin-right: 145px;
+    }
   }
 }
