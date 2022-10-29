@@ -355,7 +355,7 @@ html {
   .headline-container {
     padding-top: 35px;
     width: 320px;
-    height: 833px;
+    height: 790px;
     background-color: #f3c6bd;
     margin: auto;
   }
@@ -390,7 +390,7 @@ html {
     width: 320px;
     height: 180px;
     margin-top: 33px;
-    padding-bottom: 36px;
+    padding-bottom: 40px;
   }
   .button {
     display: flex;
