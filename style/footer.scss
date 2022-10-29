@@ -1,0 +1,322 @@
+@include little {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 320px;
+    background-color: $white;
+    &__image {
+      max-width: 60px;
+      height: 60px;
+      padding-top: 60px;
+    }
+
+    &__description {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      height: 51px;
+      width: 290px;
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+    &__description-logo {
+      text-align: center;
+      line-height: 25px;
+      font-size: 20px;
+      font-weight: 700;
+      color: $black;
+    }
+    &__description-name {
+      text-align: center;
+      line-height: 25px;
+      font-size: 18px;
+      color: $black;
+      opacity: 0.6;
+    }
+    &__new {
+      display: none;
+    }
+  }
+
+  .downloads {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 30px;
+    margin-right: 30px;
+
+    &__item-first {
+      margin-top: 31px;
+      max-width: 135px;
+      height: 40px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    &__item-second {
+      margin-top: 31px;
+      max-width: 116px;
+      height: 40px;
+      cursor: pointer;
+    }
+    &__line {
+      display: none;
+    }
+  }
+  .line-first {
+    margin-top: 40px;
+    width: 320px;
+    border-top: 1px solid $grey;
+  }
+  .nav-links__title {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    height: 28px;
+    width: 290px;
+    text-align: left;
+  }
+  .nav-links__list {
+    width: 290px;
+    height: 175px;
+    padding: 0;
+    margin: auto;
+  }
+  .nav-links__list-item {
+    line-height: 30px;
+    font-size: 18px;
+    color: $black;
+    opacity: 0.6;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .terms {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 125px;
+    margin-bottom: 31px;
+    width: 180px;
+    height: 22px;
+    &__items {
+      text-decoration: none;
+      color: $black;
+      opacity: 0.6;
+      margin-right: 3px;
+      &_last {
+        margin-right: 0;
+      }
+    }
+  }
+  .sosial-links {
+    display: flex;
+
+    &__first {
+      margin-left: 15px;
+      max-width: 21px;
+      height: 16px;
+      margin-right: 20px;
+      margin-bottom: 23px;
+      cursor: pointer;
+    }
+    &__secont {
+      margin-right: 20px;
+      margin-bottom: 22px;
+      width: 18px;
+      height: 17px;
+      cursor: pointer;
+    }
+    &__third {
+      margin-bottom: 23px;
+      width: 14px;
+      height: 16px;
+      cursor: pointer;
+    }
+  }
+}
+@include big {
+  .footer {
+    width: 1400px;
+    height: 389px;
+    display: flex;
+    margin: auto;
+    background-color: $white;
+    flex-direction: column;
+    &__image {
+      padding-top: 44px;
+      margin: 0;
+      margin-left: 130px;
+      margin-right: 15px;
+      max-width: 60px;
+      height: 60px;
+    }
+    &__description {
+      margin: 0;
+      padding-top: 48px;
+      width: 222px;
+      height: 51px;
+    }
+    &__description-logo {
+      line-height: 25px;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: left;
+      color: $black;
+    }
+    &__description-name {
+      line-height: 25px;
+      font-size: 18px;
+      text-align: left;
+      color: $black;
+      opacity: 0.6;
+    }
+    &__new {
+      margin: 0;
+      margin-top: 26px;
+      margin-left: 129px;
+      padding: 0;
+      text-align: left;
+      width: 360px;
+      height: 85px;
+      font-size: 18px;
+      line-height: 26px;
+      color: $black;
+      opacity: 0.6;
+    }
+  }
+  .footer-navigation {
+    display: flex;
+  }
+  .downloads {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    &__item-first {
+      margin: 0;
+      margin-top: 25px;
+      margin-left: 130px;
+      margin-right: 10px;
+      max-width: 135px;
+      height: 40px;
+      cursor: pointer;
+    }
+    &__item-second {
+      margin: 0;
+      margin-top: 25px;
+      max-width: 116px;
+      height: 40px;
+      cursor: pointer;
+    }
+  }
+  .line-first {
+    display: none;
+  }
+  .nav-links-container {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 226px;
+    padding: 0;
+    position: relative;
+    bottom: 230px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 265px;
+    height: 185px;
+    &_first {
+      margin: 0;
+      margin-right: 29px;
+      margin-left: 126px;
+      padding: 0;
+      width: 265px;
+      height: 185px;
+    }
+    &__list-item {
+      line-height: 30px;
+      list-style-type: none;
+      text-align: left;
+      font-size: 18px;
+      color: rgba(43, 41, 45, 0.6);
+    }
+    &__title {
+      margin: 0;
+      margin-bottom: 18px;
+      color: rgba(43, 41, 45, 1);
+
+      line-height: 28px;
+      font-size: 22px;
+      width: 212px;
+      height: 28px;
+      text-align: left;
+      font-weight: 700;
+    }
+    &__list {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 47px;
+      width: 265px;
+      height: 185px;
+    }
+  }
+  .end-line {
+    position: relative;
+    bottom: 130px;
+    display: flex;
+    border-top: 0.5px solid rgba(43, 41, 45, 0.1);
+  }
+  .terms {
+    width: 180px;
+    height: 22px;
+    margin-left: 130px;
+
+    position: relative;
+    top: 15px;
+
+    &__items {
+      line-height: 22px;
+      text-align: left;
+      text-decoration: none;
+      color: $black;
+      opacity: 0.6;
+      margin-right: 10px;
+      font-size: 14px;
+      &_last {
+        margin-right: 0;
+      }
+    }
+  }
+  .sosial-links {
+    display: flex;
+    position: relative;
+    left: 320px;
+    bottom: 28px;
+
+    &__first {
+      margin-right: 15px;
+      margin-left: 861px;
+      width: 21px;
+      height: 16px;
+
+      color: $black;
+    }
+    &__secont {
+      width: 18px;
+      height: 17px;
+
+      color: $black;
+      margin-right: 15px;
+    }
+    &__third {
+      width: 16px;
+      height: 16px;
+
+      color: $black;
+      margin-right: 145px;
+    }
+  }
+}

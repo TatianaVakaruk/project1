@@ -1,10 +1,15 @@
 @import 'breakpoints.scss';
 @import 'variables.scss';
+@import 'header-and-headline.scss';
+@import 'audience.scss';
+@import 'order.scss';
+@import 'footer.scss';
+@import 'page.scss';
 html {
   font-family: 'Work Sans', sans-serif;
 }
 
-@include for-extra-small {
+/*@include for-extra-small {
   .audience {
     background: rgba($blue, 0.07);
     width: 320px;
@@ -317,9 +322,9 @@ html {
     margin-top: 22px;
     z-index: 1;
   }
-}
+}*/
 
-@include for-small {
+/*@include for-small {
   .conteiner {
     width: 320px;
     height: 890px;
@@ -613,8 +618,8 @@ html {
       cursor: pointer;
     }
   }
-}
-@include little {
+}*/
+/*@include little {
   .footer {
     display: flex;
     flex-direction: column;
@@ -749,8 +754,8 @@ html {
       cursor: pointer;
     }
   }
-}
-@include little-page {
+}*/
+/*@include little-page {
   .project-page {
     background-color: $light-gray;
     min-height: 100vh;
@@ -761,8 +766,8 @@ html {
     background-color: $light-gray;
     min-height: 100vh;
   }
-}
-@include big {
+}*/
+/*@include big {
   .footer {
     width: 1400px;
     height: 389px;
@@ -947,8 +952,8 @@ html {
       margin-right: 145px;
     }
   }
-}
-@include for-little {
+}/*
+/*@include for-little {
   .order {
     width: 320px;
     height: 827px;
@@ -1159,4 +1164,4 @@ html {
     font-size: 18px;
     color: $black;
   }
-}
+}*/
