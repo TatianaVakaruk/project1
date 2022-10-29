@@ -6,7 +6,7 @@ html {
 
 @include for-extra-small {
   .audience {
-    background: $aqua;
+    background: rgba($blue, 0.07);
     width: 320px;
     height: 1808px;
     margin: auto;
@@ -162,7 +162,7 @@ html {
 
 @include for-extra-big {
   .audience {
-    background-color: $aqua;
+    background-color: rgba($blue, 0.07);
 
     width: 1400px;
     height: 983px;
