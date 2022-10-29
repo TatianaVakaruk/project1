@@ -1011,6 +1011,7 @@ html {
     background-color: #f4f5f7;
   }
   .order__image {
+    padding: 0;
     padding-top: 73px;
     margin: 0;
     margin-left: 224px;
