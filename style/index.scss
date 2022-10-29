@@ -1069,7 +1069,6 @@ html {
       flex-direction: column;
     }
     &__name {
-      margin: 0;
       margin-top: 106px;
       margin-bottom: 12px;
       line-height: 40px;
@@ -1082,7 +1081,6 @@ html {
       letter-spacing: -0.25px;
     }
     &__text {
-      margin: 0;
       margin-right: 230px;
       margin-bottom: 26px;
       line-height: 32px;
@@ -1096,8 +1094,6 @@ html {
       padding: 0;
     }
     &__input {
-      margin: 0;
-      padding: 0;
       margin-right: 10px;
       width: 385px;
       height: 46px;
@@ -1105,8 +1101,6 @@ html {
       border-radius: 2px;
     }
     &__button {
-      margin: 0;
-      padding: 0;
       line-height: 13px;
       font-size: 18px;
       text-align: center;
