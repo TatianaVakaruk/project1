@@ -948,7 +948,7 @@ html {
     }
   }
 }
-@include little {
+@include for-little {
   .order {
     width: 320px;
     height: 827px;
@@ -1032,17 +1032,134 @@ html {
         cursor: pointer;
       }
     }
-    :-ms-input-placeholder {
-      text-align: center;
+  }
+  :-ms-input-placeholder {
+    text-align: center;
+  }
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  ::-moz-placeholder {
+    text-align: center;
+  }
+  :-moz-placeholder {
+    text-align: center;
+  }
+}
+
+@include for-large {
+  .order {
+    display: flex;
+    margin: auto;
+    width: 1400px;
+    height: 441;
+    background-color: $light-blue;
+    &__image {
+      padding-top: 73px;
+      margin-top: 0;
+      margin-left: 224px;
+      margin-bottom: 72px;
+      margin-right: 122px;
+      width: 269px;
+      height: 296px;
     }
-    ::-webkit-input-placeholder {
-      text-align: center;
+    &__container {
+      display: flex;
+      flex-direction: column;
     }
-    ::-moz-placeholder {
-      text-align: center;
+    &__name {
+      margin-top: 106px;
+      margin-bottom: 12px;
+      line-height: 40px;
+      font-size: 40px;
+      text-align: left;
+      color: $black;
+      width: 555px;
+      height: 48px;
+      font-weight: 700;
+      letter-spacing: -0.25px;
     }
-    :-moz-placeholder {
-      text-align: center;
+    &__text {
+      margin-right: 230px;
+      margin-bottom: 26px;
+      line-height: 32px;
+      font-size: 22px;
+      color: $black;
+      width: 555px;
+      height: 64px;
     }
+    &__form {
+      margin: 0;
+      padding: 0;
+    }
+    &__input {
+      margin: 0;
+      padding: 0;
+      margin-right: 10px;
+      width: 385px;
+      height: 46px;
+      border: 1px solid rgba($black, 0.2);
+      border-radius: 2px;
+    }
+    &__button {
+      margin: 0;
+      padding: 0;
+      line-height: 13px;
+      font-size: 18px;
+      text-align: center;
+      background-color: $dark-blue;
+      color: $white;
+      border-radius: 2px;
+      width: 160px;
+      height: 48px;
+      border: none;
+      cursor: pointer;
+    }
+    &__free {
+      margin-top: 10px;
+      line-height: 22px;
+      font-size: 14px;
+      color: $black;
+      opacity: 0.6;
+      width: 495px;
+      height: 22px;
+      &_link {
+        color: $super-blue;
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+  :-ms-input-placeholder {
+    padding-left: 15px;
+    padding-bottom: 17px;
+    margin-top: 18px;
+    line-height: 13px;
+    font-size: 18px;
+    color: $black;
+  }
+  ::-webkit-input-placeholder {
+    padding-left: 15px;
+    padding-bottom: 17px;
+    margin-top: 18px;
+    line-height: 13px;
+    font-size: 18px;
+    color: $black;
+  }
+  ::-moz-placeholder {
+    padding-left: 15px;
+    padding-bottom: 17px;
+    margin-top: 18px;
+    line-height: 13px;
+    font-size: 18px;
+    color: $black;
+  }
+  :-moz-placeholder {
+    padding-left: 15px;
+    padding-bottom: 17px;
+    margin-top: 18px;
+    line-height: 13px;
+    font-size: 18px;
+    color: $black;
   }
 }
