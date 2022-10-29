@@ -1056,7 +1056,7 @@ html {
     background-color: $light-blue;
     &__image {
       padding-top: 73px;
-      margin-top: 0;
+      margin: 0;
       margin-left: 224px;
       margin-bottom: 72px;
       margin-right: 122px;
@@ -1068,6 +1068,7 @@ html {
       flex-direction: column;
     }
     &__name {
+      margin: 0;
       margin-top: 106px;
       margin-bottom: 12px;
       line-height: 40px;
@@ -1080,6 +1081,7 @@ html {
       letter-spacing: -0.25px;
     }
     &__text {
+      margin: 0;
       margin-right: 230px;
       margin-bottom: 26px;
       line-height: 32px;
