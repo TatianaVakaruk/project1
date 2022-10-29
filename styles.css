@@ -355,7 +355,7 @@ html {
   .headline-container {
     padding-top: 35px;
     width: 320px;
-    height: 791px;
+    height: 833px;
     background-color: #f3c6bd;
     margin: auto;
   }
@@ -390,7 +390,7 @@ html {
     width: 320px;
     height: 180px;
     margin-top: 33px;
-    margin-bottom: 36px;
+    padding-bottom: 36px;
   }
   .button {
     display: flex;
@@ -519,7 +519,7 @@ html {
     display: flex;
     flex-direction: column;
     width: 1140px;
-    height: 494px;
+    height: 530px;
     background-color: #f3c6bd;
     margin-left: 130px;
   }
@@ -529,6 +529,7 @@ html {
     position: relative;
     bottom: 470px;
     left: 277px;
+    padding-bottom: 120px;
   }
   .headline__title {
     width: 754px;
